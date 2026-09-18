@@ -1,0 +1,15 @@
+{
+  "name": "lab6-bigdata-crud",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Laboratorio 6 - Arquitetura Back-end, Carga de Big Data e CRUD Completo",
+  "main": "src/server.js",
+  "scripts": {
+    "seed": "node src/config/seed.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  }
+}
